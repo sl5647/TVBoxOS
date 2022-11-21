@@ -125,7 +125,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://xn--ihqu10cn4c.xn--z7x900a.love:63/SL.png");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
