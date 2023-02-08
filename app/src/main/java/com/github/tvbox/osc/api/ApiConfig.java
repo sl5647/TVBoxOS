@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://xn--ihqu10cn4c.xn--z7x900a.love:63/SL.png");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://hz752.love:63/js.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
